@@ -147,7 +147,7 @@ const IDS_STAFF_COLLECTIBLES = [
   919, //	Federal Jail Key
 ];
 
-let IDS_MASKS = [
+const IDS_MASKS = [
   828, // Donald Trump Mask '16
   869, //	Elon Musk Mask '17
   921, //	Michael Myers Mask '18
@@ -164,7 +164,7 @@ let IDS_MASKS = [
   1299, // Queen Elizabeth II Mask '22
 ];
 
-let IDS_COINS = [
+const IDS_COINS = [
   711, //	Coin : Factions	249
   712, //	Coin : Casino	250
   713, //	Coin : Education	250
@@ -181,3 +181,11 @@ let IDS_COINS = [
   724, //	Coin : Dump	250
   725, //	Coin : Estate Agents	250
 ];
+
+export {
+  IDS_HOLIDAY_ITEMS,
+  IDS_MR_MRS_TORN,
+  IDS_STAFF_COLLECTIBLES,
+  IDS_MASKS,
+  IDS_COINS,
+}

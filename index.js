@@ -1,3 +1,12 @@
+import { Torn } from './modules/api.js';
+import {
+  IDS_HOLIDAY_ITEMS,
+  IDS_MR_MRS_TORN,
+  IDS_MASKS,
+  IDS_COINS,
+  IDS_STAFF_COLLECTIBLES
+} from './modules/items.js';
+
 // estimates based on a assumption that Staff collectibles with 20 in circulation are worth 2 bil
 const ESTIMATE_BASE_CIRCULATION = 20;
 const ESTIMATE_BASE_PRICE = 2000000000;
@@ -118,3 +127,5 @@ function getEstimatedValue(circulation) {
   let price = (ESTIMATE_BASE_PRICE / (circulation / ESTIMATE_BASE_CIRCULATION));
   return Number(price.toFixed(0));
 }
+
+window.load = load;

@@ -17,3 +17,5 @@ class Torn {
     return fetch(url).then((response) => response.json());
   }
 }
+
+export { Torn }
